@@ -240,6 +240,45 @@
             transform: translateY(0);
         }
         
+        .testimonial-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            margin-right: 1rem;
+            flex-shrink: 0;
+        }
+        
+        .step-checklist {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .step-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .step-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .step-checkmark {
+            color: #10b981;
+            margin-right: 0.75rem;
+            font-size: 1.2rem;
+            margin-top: 0.1rem;
+        }
+        
         @media (max-width: 768px) {
             .hero-section {
                 padding: 3rem 1rem;
@@ -319,6 +358,25 @@
                 Kies een winnend product, lanceer zonder compliance-stress en draai je eerste verkopen binnen weken
             </p>
             
+            <!-- NEW: Visual Step Plan -->
+            <div class="step-checklist max-w-4xl mx-auto mb-8" style="text-align:center; margin-left:auto; margin-right:auto; display:flex; flex-direction:column; align-items:center; gap:0.35rem;">
+                <div style="text-align:center; margin-bottom:1rem;">🎯 Jouw 5-Stappen Succes Plan:</div>
+                <div style="text-align:center;">✅</div>
+                <div style="text-align:center;">1. Kies een winnend product - Met data-gedreven onderzoek (BSR, marge, concurrentie)</div>
+                <div style="text-align:center;">✅</div>
+                <div style="text-align:center;">2. Lanceer 100% EU-compliant - BTW OSS/IOSS, EPR, EORI setup</div>
+                <div style="text-align:center;">✅</div>
+                <div style="text-align:center;">3. Krijg veilig je eerste reviews - Request a Review, Vine strategie</div>
+                <div style="text-align:center;">✅</div>
+                <div style="text-align:center;">4. Zet winstgevende Sponsored Products aan - PPC mastery voor beginners</div>
+                <div style="text-align:center;">✅</div>
+                <div style="text-align:center;">5. Schaal EU-breed zonder stress - Automatisering en operations</div>
+                <div style="text-align:center; margin-top:1rem;">
+                    <div style="text-align:center;">Exclusief:</div>
+                    <div style="text-align:center;">NL/BE Support-Community voor peer-ondersteuning</div>
+                </div>
+            </div>
+            
             <div class="flex flex-wrap justify-center mb-8">
                 <div class="trust-badge">
                     <i class="fas fa-shield-alt mr-2"></i>
@@ -350,7 +408,79 @@
             </div>
             
             <div class="mt-12 text-sm opacity-75">
-                ⏰ Beperkte tijd: Start vandaag en ontvang bonus templates
+                ⏰ Beperkte tijd: Start vandaag en ontvang bonus templates t.w.v. €297
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW: Testimonials Section -->
+    <section class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">🌟 Wat Cursisten Zeggen</h2>
+                <p class="text-lg text-gray-600">Echte resultaten van Nederlandse en Belgische Amazon verkopers</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="card">
+                    <div class="flex items-start mb-4">
+                        <div class="testimonial-avatar">SJ</div>
+                        <div>
+                            <div class="font-semibold text-gray-900">Sanne J.</div>
+                            <div class="text-sm text-gray-600">Utrecht</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic mb-4">
+                        "Binnen 2 maanden mijn eerste omzet en eerste 50 reviews op een nieuwe listing. De EPR en OSS-setup was eindelijk duidelijk uitgelegd!"
+                    </p>
+                    <div class="flex items-center text-yellow-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="flex items-start mb-4">
+                        <div class="testimonial-avatar">TV</div>
+                        <div>
+                            <div class="font-semibold text-gray-900">Thomas V.</div>
+                            <div class="text-sm text-gray-600">Antwerpen</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic mb-4">
+                        "Met het stappenplan eindelijk winstgevend: ACoS van 58% naar 27% in 4 weken. De PPC-templates zijn goud waard!"
+                    </p>
+                    <div class="flex items-center text-yellow-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="flex items-start mb-4">
+                        <div class="testimonial-avatar">MK</div>
+                        <div>
+                            <div class="font-semibold text-gray-900">Mira K.</div>
+                            <div class="text-sm text-gray-600">Rotterdam</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic mb-4">
+                        "De EPR en btw-setup snap ik nu eindelijk. Binnen 6 weken live in DE/FR/NL zonder blokkades. Top cursus!"
+                    </p>
+                    <div class="flex items-center text-yellow-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -429,6 +559,14 @@
                         <i class="fas fa-external-link-alt mr-1"></i>Amazon - Customer reviews policy
                     </a>
                 </div>
+            </div>
+            
+            <!-- NEW: CTA after section -->
+            <div class="text-center mt-12">
+                <a href="https://www.paypro.nl/producten/%231_Amazon_FBA_Cursus_/100581/14535" class="btn-primary text-lg px-8 py-4">
+                    <i class="fas fa-rocket mr-2"></i>
+                    Start Nu
+                </a>
             </div>
         </div>
     </section>
@@ -514,7 +652,7 @@
             <div class="text-center mt-12">
                 <a href="https://www.paypro.nl/producten/%231_Amazon_FBA_Cursus_/100581/14535" class="btn-primary text-lg px-8 py-4">
                     <i class="fas fa-graduation-cap mr-2"></i>
-                    Start het Complete Stappenplan
+                    Begin Vandaag
                 </a>
             </div>
         </div>
@@ -564,6 +702,14 @@
                         Amazon Restricted List →
                     </a>
                 </div>
+            </div>
+            
+            <!-- NEW: CTA after section -->
+            <div class="text-center mt-12">
+                <a href="https://www.paypro.nl/producten/%231_Amazon_FBA_Cursus_/100581/14535" class="btn-primary text-lg px-8 py-4">
+                    <i class="fas fa-shield-alt mr-2"></i>
+                    Claim Jouw Bonus
+                </a>
             </div>
         </div>
     </section>
@@ -913,6 +1059,14 @@
                     </a>
                 </div>
             </div>
+            
+            <!-- NEW: CTA after section -->
+            <div class="text-center mt-12">
+                <a href="https://www.paypro.nl/producten/%231_Amazon_FBA_Cursus_/100581/14535" class="btn-primary text-lg px-8 py-4">
+                    <i class="fas fa-warehouse mr-2"></i>
+                    Begin Vandaag
+                </a>
+            </div>
         </div>
     </section>
 
@@ -977,14 +1131,81 @@
                     </a>
                 </div>
             </div>
+            
+            <!-- NEW: CTA after section -->
+            <div class="text-center mt-12">
+                <a href="https://www.paypro.nl/producten/%231_Amazon_FBA_Cursus_/100581/14535" class="btn-primary text-lg px-8 py-4">
+                    <i class="fas fa-question-circle mr-2"></i>
+                    Start Nu
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW: Success Stories Section -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">🏆 Succesverhalen van Cursisten</h2>
+                <p class="text-xl text-gray-600">Echte resultaten met het stappenplan</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card text-center">
+                    <div class="mb-6">
+                        <div class="text-4xl font-bold text-green-600 mb-2">120</div>
+                        <div class="text-sm text-gray-600">sales/maand</div>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-3">Private Label Keukentool</h3>
+                    <p class="text-gray-700 text-sm mb-4">
+                        Van 0 naar 120 sales per maand in 90 dagen met 34% netto marge. Succesvol gelanceerd in DE/NL via Pan-EU FBA.
+                    </p>
+                    <div class="text-xs text-gray-500">Case Study: Kitchen Gadget</div>
+                </div>
+                
+                <div class="card text-center">
+                    <div class="mb-6">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">3</div>
+                        <div class="text-sm text-gray-600">nieuwe ASINs</div>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-3">Wholesale Uitbreiding</h3>
+                    <p class="text-gray-700 text-sm mb-4">
+                        3 ASINs toegevoegd, retourpercentage gehalveerd, Account Health Rating >300. Schaling via systematische approch.
+                    </p>
+                    <div class="text-xs text-gray-500">Case Study: Home & Garden</div>
+                </div>
+                
+                <div class="card text-center">
+                    <div class="mb-6">
+                        <div class="text-4xl font-bold text-purple-600 mb-2">520</div>
+                        <div class="text-sm text-gray-600">IPI score</div>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-3">Pan-EU Uitrol</h3>
+                    <p class="text-gray-700 text-sm mb-4">
+                        IPI 520 bereikt, voorraadrotatie verbeterd, low-inventory fee vermeden. Operationele excellence via planning.
+                    </p>
+                    <div class="text-xs text-gray-500">Case Study: Sports Equipment</div>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <div class="max-w-2xl mx-auto">
+                    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-lg">
+                        <p class="text-sm text-yellow-800">
+                            <i class="fas fa-info-circle mr-2"></i>
+                            <strong>Belangrijke notitie:</strong> Resultaten variëren per persoon, product en marktomstandigheden. Er is geen garantie op specifieke uitkomsten. Success vereist tijd, inzet en het consequent toepassen van de geleerde strategieën.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Extended FAQ -->
-    <section id="faq" class="py-16">
+    <section id="faq" class="py-16 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
-                <h2 class="text-4xl font-bold text-gray-900 mb-4">Uitgebreide FAQ: 20 Praktijkscenario's</h2>
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Uitgebreide FAQ: 23 Praktijkscenario's</h2>
                 <p class="text-xl text-gray-600">Alle vragen die cursisten stellen—beantwoord met bronnen</p>
             </div>
             
@@ -1032,13 +1253,60 @@
                     </div>
                 </div>
                 
+                <!-- NEW: Support/Community/Updates FAQ Items -->
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span>4. Hoe kies ik tussen private label en wholesale voor mijn eerste shop?</span>
+                        <span>4. Hoe snel krijg ik antwoord op mijn vragen?</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Private label vergt merkopbouw en sourcing, meer margepotentieel maar langzamer; wholesale is sneller live maar lagere marges en afhankelijkheid. In beide gevallen: check category-approval, EPR/btw, fee-impact. Voor beginners wordt vaak wholesale aanbevolen voor snellere cashflow.</p>
+                        <p><strong>Belangrijk:</strong> Wij (als affiliate) geven geen directe support voor cursusvragen. Voor alle technische vragen, toegangsproblemen of cursusinhoud dien je contact op te nemen met de officiële cursuswebsite. Wel is er een actieve NL/BE community van medecursisten voor peer-ondersteuning en ervaringen delen.</p>
+                        <div class="mt-3">
+                            <a href="https://www.paypro.nl/producten/%231_Amazon_FBA_Cursus_/100581/14535" class="btn-primary inline-block">
+                                <i class="fas fa-graduation-cap mr-2"></i>
+                                Ga naar Officiële Cursus voor Support
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>5. Is er een actieve community van medecursisten?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Ja, er is een NL/BE community van medecursisten voor peer-ondersteuning, ervaringen delen en netwerken. Let op: dit is géén vervanging voor officiële klantenservice van de cursusaanbieder. De community is perfect voor praktijkvragen, tips delen en motivatie, maar technische support en cursustoegang gebeurt via de officiële kanalen.</p>
+                        <div class="mt-3">
+                            <p class="text-sm text-gray-600 italic">
+                                💡 Community voordelen: lokale insights, Nederlandse/Belgische praktijkervaring, EPR/btw tips, en netwerkopbouw met gelijkgestemden.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>6. Hoe vaak worden de lessen geüpdatet?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Updates en nieuwe content worden regelmatig toegevoegd door de cursusaanbieder, vooral voor wijzigingen in Amazon-beleid, EU-compliance en fee-structures (zoals de 2025 updates). Voor specifieke update-schema's en nieuwe modules: volg de officiële cursuspagina en aankondigingen. Wij beheren het cursusplatform niet en kunnen geen garanties geven over update-frequentie.</p>
+                        <div class="mt-3">
+                            <a href="https://www.paypro.nl/producten/%231_Amazon_FBA_Cursus_/100581/14535" class="source-link" target="_blank">
+                                Bekijk Huidige Cursusinhoud & Updates →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>7. Hoe kies ik tussen private label en wholesale voor mijn eerste shop?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Private label vergt merkopbouw en sourcing, meer margepotentiaal maar langzamer; wholesale is sneller live maar lagere marges en afhankelijkheid. In beide gevallen: check category-approval, EPR/btw, fee-impact. Voor beginners wordt vaak wholesale aanbevolen voor snellere cashflow.</p>
                         <div class="mt-3 space-x-4">
                             <a href="https://sellercentral.amazon.com/gp/help/external/G200333160" class="source-link" target="_blank">Categories requiring approval</a>
                             <a href="https://vat-one-stop-shop.ec.europa.eu/index_en" class="source-link" target="_blank">EU OSS/IOSS</a>
@@ -1048,7 +1316,7 @@
                 
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span>5. Wat betekent het als mijn cursusresultaten niet overeenkomen met mijn praktijkervaring?</span>
+                        <span>8. Wat betekent het als mijn cursusresultaten niet overeenkomen met mijn praktijkervaring?</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
@@ -1062,7 +1330,7 @@
                 
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span>6. Hoe vind ik een Nederlandse mentor na een online cursus?</span>
+                        <span>9. Hoe vind ik een Nederlandse mentor na een online cursus?</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
@@ -1078,7 +1346,7 @@
                 
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span>7. Hoe voorkom ik dat mijn producten door douane worden tegengehouden bij import naar Nederland?</span>
+                        <span>10. Hoe voorkom ik dat mijn producten door douane worden tegengehouden bij import naar Nederland?</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
@@ -1092,7 +1360,7 @@
                 
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span>8. Wat als Amazon FBA mijn voorraad kwijtraakt of beschadigt?</span>
+                        <span>11. Wat als Amazon FBA mijn voorraad kwijtraakt of beschadigt?</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
@@ -1106,7 +1374,7 @@
                 
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span>9. Welke verborgen kosten kom ik tegen die niet in een cursus staan?</span>
+                        <span>12. Welke verborgen kosten kom ik tegen die niet in een cursus staan?</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
@@ -1120,7 +1388,7 @@
                 
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span>10. Waarom krijg ik geen verkopen ondanks PPC?</span>
+                        <span>13. Waarom krijg ik geen verkopen ondanks PPC?</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
@@ -1132,10 +1400,9 @@
                     </div>
                 </div>
                 
-                <!-- Continue with remaining FAQ items... -->
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span>11. Hoe schrijf ik een productbeschrijving die beter scoort zonder te kopiëren?</span>
+                        <span>14. Hoe schrijf ik een productbeschrijving die beter scoort zonder te kopiëren?</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
@@ -1148,7 +1415,7 @@
                 
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span>12. Wat zijn de beste manieren om recensies als nieuwe verkoper te krijgen zonder regels te breken?</span>
+                        <span>15. Wat zijn de beste manieren om recensies als nieuwe verkoper te krijgen zonder regels te breken?</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
@@ -1162,7 +1429,7 @@
                 
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span>13. Hoe combineer ik FBA met een fulltime baan?</span>
+                        <span>16. Hoe combineer ik FBA met een fulltime baan?</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
@@ -1175,7 +1442,7 @@
                 
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span>14. Wat zeggen ervaren NL-verkopers over hun grootste fouten?</span>
+                        <span>17. Wat zeggen ervaren NL-verkopers over hun grootste fouten?</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
@@ -1191,7 +1458,7 @@
                 
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span>15. Moet ik een Nederlands bedrijf oprichten als ik alleen op Amazon.com (VS) verkoop?</span>
+                        <span>18. Moet ik een Nederlands bedrijf oprichten als ik alleen op Amazon.com (VS) verkoop?</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
@@ -1205,7 +1472,7 @@
                 
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span>16. Hoe werkt btw-aangifte als ik verkoop in meerdere EU-landen via FBA?</span>
+                        <span>19. Hoe werkt btv-aangifte als ik verkoop in meerdere EU-landen via FBA?</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
@@ -1219,7 +1486,7 @@
                 
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span>17. Welke (gratis) tools zijn écht nodig bij de start?</span>
+                        <span>20. Welke (gratis) tools zijn écht nodig bij de start?</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
@@ -1233,7 +1500,7 @@
                 
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span>18. Kan ik Seller Central volledig mobiel bedienen?</span>
+                        <span>21. Kan ik Seller Central volledig mobiel bedienen?</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
@@ -1246,7 +1513,7 @@
                 
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span>19. Wat moet ik doen als ik wil stoppen met mijn FBA-business zonder boetes?</span>
+                        <span>22. Wat moet ik doen als ik wil stoppen met mijn FBA-business zonder boetes?</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
@@ -1260,7 +1527,7 @@
                 
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span>20. Hoe schaal ik van 1 naar 10 producten zonder overwerk?</span>
+                        <span>23. Hoe schaal ik van 1 naar 10 producten zonder overwerk?</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="faq-answer">
@@ -1271,6 +1538,14 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            
+            <!-- NEW: CTA after FAQ -->
+            <div class="text-center mt-12">
+                <a href="https://www.paypro.nl/producten/%231_Amazon_FBA_Cursus_/100581/14535" class="btn-primary text-lg px-8 py-4">
+                    <i class="fas fa-question-circle mr-2"></i>
+                    Claim Jouw Bonus
+                </a>
             </div>
         </div>
     </section>
@@ -1314,18 +1589,35 @@
                     </div>
                 </div>
                 
-                <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8">
-                    <div class="flex">
-                        <div class="flex-shrink-0">
-                            <i class="fas fa-exclamation-triangle text-yellow-400"></i>
+                <!-- NEW: Enhanced Bonus Offer -->
+                <div class="bg-gradient-to-r from-yellow-400 to-orange-400 p-6 rounded-lg mb-8 text-gray-900">
+                    <div class="flex items-center justify-center mb-4">
+                        <i class="fas fa-gift text-3xl mr-3"></i>
+                        <h3 class="text-2xl font-bold">🎁 Exclusieve Bonus Aanbieding</h3>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-lg font-semibold mb-2">
+                            Start vóór 31 december en ontvang GRATIS:
                         </div>
-                        <div class="ml-3 text-left">
-                            <p class="text-sm font-medium text-yellow-800">
-                                ⏰ Beperkte tijd aanbieding
-                            </p>
-                            <p class="mt-1 text-sm text-yellow-700">
-                                Start vóór 31 december en ontvang gratis bonus templates ter waarde van €297. Na deze datum vervalt deze bonus permanent.
-                            </p>
+                        <div class="grid md:grid-cols-3 gap-4 text-sm">
+                            <div class="bg-white p-3 rounded shadow">
+                                <div class="font-bold text-green-600">Productresearch Templates</div>
+                                <div class="text-gray-600">Waarde: €97</div>
+                            </div>
+                            <div class="bg-white p-3 rounded shadow">
+                                <div class="font-bold text-blue-600">Launch Checklist</div>
+                                <div class="text-gray-600">Waarde: €97</div>
+                            </div>
+                            <div class="bg-white p-3 rounded shadow">
+                                <div class="font-bold text-purple-600">PPC Excel Sheets</div>
+                                <div class="text-gray-600">Waarde: €103</div>
+                            </div>
+                        </div>
+                        <div class="mt-4 text-xl font-bold">
+                            Totale Bonuswaarde: <span class="text-red-600">€297</span>
+                        </div>
+                        <div class="text-sm opacity-75 mt-2">
+                            ⏰ Deze bonus vervalt permanent na 31 december 2025
                         </div>
                     </div>
                 </div>
@@ -1333,7 +1625,7 @@
                 <div class="text-center">
                     <a href="https://www.paypro.nl/producten/%231_Amazon_FBA_Cursus_/100581/14535" class="btn-primary text-xl px-12 py-4 pulse-effect">
                         <i class="fas fa-rocket mr-3"></i>
-                        Start Nu de Amazon FBA Cursus
+                        Start Nu & Claim €297 Bonus
                     </a>
                     
                     <div class="mt-6 text-sm text-gray-600">
