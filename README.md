@@ -1,6 +1,6 @@
 # Amazon FBA Cursus Nederland: Complete Gids voor Beginners en Gevorderden 2026
 
-> Wil jij starten met verkopen op Amazon vanuit Nederland? Op [(https://benrgy.github.io/AmazonFbaCursusNederland/) vind je alles wat je nodig hebt. Van cursussen tot kosten, van stappenplan tot veelgemaakte fouten.
+> Wil jij starten met verkopen op Amazon vanuit Nederland? Op [Amazon FBA Cursus Nederland](https://amazonfbacursusnederland.online/) vind je alles wat je nodig hebt. Van cursussen tot kosten, van stappenplan tot veelgemaakte fouten.
 
 ---
 
@@ -218,7 +218,7 @@ Gebruik productonderzoekstools zoals Helium 10, Jungle Scout of AMZScout. Zoek p
 
 ## Over Dit Project
 
-Dit project is onderdeel van [amazonfbacursusnederland.online]{https://benrgy.github.io/AmazonFbaCursusNederland/). We bieden onafhankelijke informatie over Amazon FBA cursussen en training voor de Nederlandse markt.
+Dit project is onderdeel van [amazonfbacursusnederland.online](https://amazonfbacursusnederland.online/). We bieden onafhankelijke informatie over Amazon FBA cursussen en training voor de Nederlandse markt.
 
 Alle informatie is zorgvuldig samengesteld op basis van openbare bronnen. We streven naar nauwkeurigheid. Gegevens en statistieken zijn afkomstig van Amazon, Jungle Scout, Statista, de Kamer van Koophandel, de Belastingdienst en de Europese Commissie.
 
